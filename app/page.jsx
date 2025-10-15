@@ -1,10 +1,4 @@
-/**
- * Home Page
- *
- * This is the landing page. Navigate users to the schedule page.
- */
-
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function HomePage() {
   return (
@@ -15,8 +9,8 @@ export default function HomePage() {
         </h1>
 
         <p className="text-gray-600 mb-6">
-          Welcome to the appointment scheduling system. View and manage doctor schedules
-          for our hospital.
+          Welcome to the appointment scheduling system. View and manage doctor
+          schedules for our hospital.
         </p>
 
         <div className="space-y-4">
@@ -28,7 +22,9 @@ export default function HomePage() {
           </Link>
 
           <div className="border-t border-gray-200 pt-4">
-            <h2 className="text-sm font-semibold text-gray-700 mb-2">Available Doctors:</h2>
+            <h2 className="text-sm font-semibold text-gray-700 mb-2">
+              Available Doctors:
+            </h2>
             <ul className="text-sm text-gray-600 space-y-1">
               <li>• Dr. Sarah Chen - Cardiology</li>
               <li>• Dr. Michael Rodriguez - Pediatrics</li>
